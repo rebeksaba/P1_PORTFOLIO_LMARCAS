@@ -48,10 +48,10 @@
 }
 
 .encabezado header .nombre a{
-    font-family: 'DynaPuff';
+    font-family: 'Quicksand';
     font-weight: normal;
     font-size: 37px;
-    color: #bf91c4;
+    color: #ab8cf5;
     text-decoration: none;
 }
 
@@ -72,11 +72,11 @@
 }
 
 .encabezado header nav ul li a:hover{
-    color: #9736e7;
+    color: #ab8cf5;
 }
 
 .menu-responsive{
-    background-color: #ffb5da;
+    background-color: #ad8ef5;
     color: black;
     padding: 5px 10px;
     border-radius: 5px;
@@ -86,8 +86,8 @@
 
 /*INICIO*/
 .inicio{
-    background-image: linear-gradient(to top, rgba(57, 7, 99, 0.8), rgb(212, 176, 241)),
-    url(/img/fondofhd.jpg);
+    background-image: linear-gradient(to top, rgba(30, 6, 119, 0.8), rgb(195, 137, 243)),
+    url(/img/fondo.png);
     background-size: cover;
     height: 100vh;
     color: #000000;
@@ -96,18 +96,121 @@
 }
 .inicio .apertura{
     padding: 20px;
-    background-color: #d6b7e7;
+    background-color: #e3ceff;
     max-width: 350px;
     margin: auto;
-    text-align: center;
+    text-align: center; 
     border-radius: 40px;
 }
 .inicio .apertura img{
 
     margin-top: 40px;
-    border: 10px solid #4c2c61;
+    border: 10px solid #ab8cf5;
     display: block;
     width: 80%;
     margin: auto;
     border-radius: 100%;
 }
+.inicio .apertura h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+
+}
+.inicio .apertura h2{
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.inicio .apertura .rrss a{
+    color: #4c2c61;
+    display: inline-block;
+    text-align: none;
+    border: 1px solid #4c2c61;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+
+}
+
+.inicio .apertura .rrss a:hover{
+    background-color: #ab8cf5;
+
+}
+
+/*SOBRE MI*/
+
+.sobremi{
+    background-color: #e3ceff;
+    color: #000000;
+    padding: 50px 20px;
+}
+.sobremi .contenido-sobremi{
+    max-width: 1100px;
+    margin: auto;
+    
+}
+
+.sobremi h2{
+    font-size: 35px;
+    font-family: 'DynaPuff';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobremi .contenido-sobremi p{
+    font: 18px;
+    font-family: 'Quicksand';
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+
+.contenido-sobremi h3{
+    background-color: #e3ceff;
+    font-size: 25px;
+    font-family: 'DynaPuff';
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+
+}
+
+.contenedor-intereses{
+    background-color: #e3ceff;
+    color: #000000;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 0px;
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ab8cf5;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .intereses:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .intereses i {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #4c2c61;
+  }
+ 
