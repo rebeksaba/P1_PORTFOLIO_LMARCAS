@@ -28,6 +28,10 @@
     font-weight: bold;
 }
 
+body {
+    background-color: #e3ceff; 
+  }
+
 .encabezado{
     overflow: hidden;
     background-color: #e3ceff;
@@ -184,23 +188,27 @@
 .contenedor-intereses{
     background-color: #e3ceff;
     color: #000000;
-    padding: 50px 20px;
+    padding: 30px 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-items: center;
-    margin-top: 0px;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .intereses {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #ab8cf5;
     padding: 15px;
     border-radius: 8px;
     font-size: 1rem;
     transition: transform 0.3s ease;
+    text-align: center;
+    min-width: 120px;
   }
   
 .intereses:hover {
@@ -256,4 +264,70 @@
     margin-bottom: 0;
     border-radius: 15px;
 } 
+
+
+/*PROYECTOS*/
+
+.proyectos{
+    background-color: #e3ceff;
+}
+
+.bloque-proyecto {
+    display: flex;
+    align-items: center;
+    background-color: #c59dfa;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(76, 44, 97, 0.2);
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bloque-proyecto img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(76, 44, 97, 0.2);
+    object-fit: cover;
+  }
+
+.proyectos .contenido-proyectos h2{
+    background-color: #e3ceff;
+    font-size: 35px;
+    font-family: 'DynaPuff';
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.contenido-proyectos h3{
+    background-color: #e3ceff;
+    font-size: 25px;
+    font-family: 'DynaPuff';
+    display: inline-block;
+    padding: 10px 0;
+    margin-bottom: 10;
+    border-radius: 10px;
+} 
+
+.texto-proyecto {
+    background-color: #f5ebff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    max-width: 500px;
+    margin: 10px 0;
+    box-shadow: 0 2px 6px rgba(76, 44, 97, 0.15);
+  }
+
+  .contenido-proyectos h3:hover{
+    background-color: #ab8cf5;
+
+}
 
