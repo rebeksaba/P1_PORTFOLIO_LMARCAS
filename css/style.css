@@ -6,7 +6,7 @@
   }
 @font-face {
     font-family: 'Quicksand';
-    src: url(/fonts/Quicksand/Quicksand-Regular.ttf));
+    src: url(/fonts/Quicksand/Quicksand-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -203,14 +203,57 @@
     transition: transform 0.3s ease;
   }
   
-  .intereses:hover {
+.intereses:hover {
     transform: scale(1.05);
     cursor: pointer;
-  }
+}
   
-  .intereses i {
+.intereses i {
     font-size: 24px;
     margin-bottom: 8px;
     color: #4c2c61;
-  }
- 
+}
+
+  /*CURRICULUM*/
+
+.curriculum{
+    background-color: #e3ceff;
+}
+
+.contenido-curriculum{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.bloque-cv {
+    background-color: #c59dfa;
+    color: #000000;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(76, 44, 97, 0.2);
+    transition: transform 0.3s ease;
+    text-align: left;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+.curriculum .contenido-curriculum h2{
+    background-color: #e3ceff;
+    font-size: 35px;
+    font-family: 'DynaPuff';
+    text-align: center;
+    padding: 20px 0;
+    
+} 
+
+.contenido-curriculum h3{
+    background-color: #e3ceff;
+    font-size: 25px;
+    font-family: 'DynaPuff';
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+    border-radius: 15px;
+} 
+
