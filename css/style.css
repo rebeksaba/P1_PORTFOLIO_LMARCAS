@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'Quicksand';
-    src: url(/fonts/Quicksand/Quicksand-Bold.woff2) format('woff2'),
-        url(/fonts/Quicksand/Quicksand-Bold.woff) format('woff');
+    src: url("fonts/Quicksand/Quicksand-Bold.woff2") format('woff2'),
+        url("fonts/Quicksand/Quicksand-Bold.woff") format('woff');
     font-weight: bold;
     font-style: normal;
   }
 @font-face {
     font-family: 'Quicksand';
-    src: url(/fonts/Quicksand/Quicksand-Regular.woff2) format('woff2'),
-        url(/fonts/Quicksand/Quicksand-Regular.woff) format('woff');
+    src: url("fonts/Quicksand/Quicksand-Regular.woff2") format('woff2'),
+        url("fonts/Quicksand/Quicksand-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'DynaPuff';
-    src: url(/fonts/DynaPuff/DynaPuff-Regular.woff2) format('woff2'),
-        url(/fonts/DynaPuff/DynaPuff-Regular.woff) format('woff');
+    src: url("fonts/DynaPuff/DynaPuff-Regular.woff2") format('woff2'),
+        url("fonts/DynaPuff/DynaPuff-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
