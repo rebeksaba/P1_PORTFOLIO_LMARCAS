@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Quicksand';
-    src: url(/fonts/Quicksand/Quicksand-Bold.ttf);
+    src: url("fonts/Quicksand/Quicksand-Bold.ttf");
     font-weight: bold;
     font-style: bold;
   }
 @font-face {
     font-family: 'Quicksand';
-    src: url(/fonts/Quicksand/Quicksand-Regular.ttf);
+    src: url("fonts/Quicksand/Quicksand-Regular.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'DynaPuff';
-    src: url(/fonts/DynaPuff/DynaPuff-Regular.ttf);
+    src: url("fonts/DynaPuff/DynaPuff-Regular.ttf");
     font-weight: normal;
     font-style: normal;
 }
