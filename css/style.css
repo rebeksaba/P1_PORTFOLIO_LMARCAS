@@ -222,7 +222,11 @@ body {
     color: #4c2c61;
 }
 
-  /*CURRICULUM*/
+.intereses a {
+    text-decoration: none;
+}
+
+/*CURRICULUM*/
 
 .curriculum{
     background-color: #e3ceff;
@@ -331,3 +335,212 @@ body {
 
 }
 
+
+/*CONTACTO*/
+
+.contacto {
+    background-color: #e3ceff;
+    padding: 50px 20px;
+}
+
+.contenido-contacto {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+} 
+  
+.contacto h2 {
+    font-size: 35px;
+    font-family: 'DynaPuff';
+    margin-bottom: 30px;
+}  
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ab8cf5;
+    border-radius: 10px;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    background-color: #f5ebff;
+    color: #4c2c61;
+}
+  
+form button {
+    background-color: #ab8cf5;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+form button:hover {
+    background-color: #4c2c61;
+}
+
+.rrss-contacto {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+  
+.rrss-contacto a {
+    color: #4c2c61;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #4c2c61;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+  
+.rrss-contacto a:hover {
+    background-color: #ab8cf5;
+}
+
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #c59dfa;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(76, 44, 97, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand';
+    z-index: 999;
+}
+  
+.cookie-popup p {
+    margin: 0;
+    font-size: 14px;
+}
+  
+.cookie-popup a {
+    color: #fff;
+    text-decoration: underline;
+}
+  
+.cookie-popup button {
+    background-color: #4c2c61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+  
+.cookie-popup button:hover {
+    background-color: #ab8cf5;
+}
+  
+.cookie-popup.oculto {
+    display: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.encabezado header {
+    flex-direction: column;
+    text-align: center;
+}
+  
+.encabezado header nav ul {
+    flex-direction: column;
+    padding: 10px 0;
+}
+  
+.encabezado header nav ul li {
+    margin: 5px 0;
+}
+  
+.inicio {
+    flex-direction: column;
+    height: auto;
+    padding-top: 80px;
+}
+  
+.inicio .apertura {
+    width: 90%;
+    margin-top: 20px;
+}
+  
+.sobremi,
+.curriculum,
+.proyectos,
+.contacto {
+    padding: 30px 15px;
+}
+  
+.contenedor-intereses {
+    grid-template-columns: 1fr;
+}
+  
+.bloque-cv,
+.bloque-proyecto {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+  
+.bloque-proyecto img {
+    max-width: 100%;
+}
+  
+form input,
+form textarea {
+    font-size: 14px;
+}
+  
+.rrss-contacto {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.rrss-contacto a {
+    margin: 10px 8px;
+}
+  
+.menu-responsive {
+    display: block;
+}
+  
+#menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e3ceff;
+    padding: 10px 0;
+}
+
+#menu.mostrar {
+    display: flex;
+}
+  
+}
+
+
+
+
+  
