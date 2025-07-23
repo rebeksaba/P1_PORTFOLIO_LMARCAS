@@ -2,7 +2,7 @@
     font-family: 'Quicksand';
     src: url("fonts/Quicksand/Quicksand-Bold.ttf");
     font-weight: bold;
-    font-style: bold;
+    font-style: normal;
   }
 @font-face {
     font-family: 'Quicksand';
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     src: url("fonts/DynaPuff/DynaPuff-Regular.ttf");
     font-weight: normal;
     font-style: normal;
@@ -24,7 +24,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ body {
 /*INICIO*/
 .inicio{
     background-image: linear-gradient(to top, rgba(30, 6, 119, 0.8), rgb(195, 137, 243)),
-    url(/img/fondo.png);
+    url("img/fondo.png");
     background-size: cover;
     height: 100vh;
     color: #000000;
@@ -162,7 +162,7 @@ body {
 
 .sobremi h2{
     font-size: 35px;
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     text-align: center;
     padding: 20px 0;
 }
@@ -178,7 +178,7 @@ body {
 .contenido-sobremi h3{
     background-color: #e3ceff;
     font-size: 25px;
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     text-align: center;
     padding: 20px 0;
     margin-bottom: 0;
@@ -253,7 +253,7 @@ body {
 .curriculum .contenido-curriculum h2{
     background-color: #e3ceff;
     font-size: 35px;
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     text-align: center;
     padding: 20px 0;
     
@@ -262,7 +262,7 @@ body {
 .contenido-curriculum h3{
     background-color: #e3ceff;
     font-size: 25px;
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     text-align: center;
     padding: 20px 0;
     margin-bottom: 0;
@@ -305,7 +305,7 @@ body {
 .proyectos .contenido-proyectos h2{
     background-color: #e3ceff;
     font-size: 35px;
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     text-align: center;
     padding: 20px 0;
 
@@ -314,7 +314,7 @@ body {
 .contenido-proyectos h3{
     background-color: #e3ceff;
     font-size: 25px;
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     display: inline-block;
     padding: 10px 0;
     margin-bottom: 10;
@@ -351,7 +351,7 @@ body {
   
 .contacto h2 {
     font-size: 35px;
-    font-family: 'DynaPuff';
+    font-family: 'DynaPuff', cursive;
     margin-bottom: 30px;
 }  
 
