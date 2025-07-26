@@ -96,7 +96,7 @@ body {
 /*INICIO*/
 .inicio{
     background-image: linear-gradient(to top, rgba(30, 6, 119, 0.8), rgb(195, 137, 243)),
-    url("img/fondo.png");
+    url("/PORTFOLIO_REBECA/blob/main/img/fondo.png");
     background-size: cover;
     height: 100vh;
     color: #000000;
@@ -335,10 +335,6 @@ body {
     box-shadow: 0 2px 6px rgba(76, 44, 97, 0.15);
   }
 
-  .contenido-proyectos h3:hover{
-    background-color: #ab8cf5;
-
-}
 
 
 /*CONTACTO*/
@@ -412,6 +408,28 @@ form button:hover {
     background-color: #ab8cf5;
 }
 
+/*FOOTER*/
+
+
+footer {
+    background-color: #c59dfa;
+    color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(76, 44, 97, 0.2);
+}
+  
+footer p {
+    margin: 0;
+}
+
+
+/*COOKIES*/
+
 .cookie-popup {
     position: fixed;
     bottom: 20px;
@@ -462,6 +480,9 @@ form button:hover {
 html {
     scroll-behavior: smooth;
 }
+
+/*MEDIA QUERY/MENÚ RESPONSIVE*/
+
 
 
 @media screen and (max-width: 768px) {

@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Popup de cookies
-  const botonCookies = document.getElementById("aceptar-cookies");
+  const botonCookies = document.getElementById("aceptar-cookie");
   const popupCookies = document.getElementById("cookie-popup");
-  const seccionPrivacidad = document.getElementById("privacidad"); // 👈 nueva línea
+  const seccionPrivacidad = document.getElementById("privacidad"); 
 
   if (localStorage.getItem("cookiesAceptadas")) {
     popupCookies.classList.add("oculto");
