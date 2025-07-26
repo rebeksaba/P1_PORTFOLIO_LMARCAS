@@ -96,7 +96,7 @@ body {
 /*INICIO*/
 .inicio{
     background-image: linear-gradient(to top, rgba(30, 6, 119, 0.8), rgb(195, 137, 243)),
-    url("/PORTFOLIO_REBECA/blob/main/img/fondo.png");
+    url("img/fondo.png");
     background-size: cover;
     height: 100vh;
     color: #000000;
