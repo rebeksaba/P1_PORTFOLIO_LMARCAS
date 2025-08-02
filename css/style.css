@@ -7,16 +7,16 @@
 }
 @font-face {
     font-family: 'Quicksand';
-    src: url("/PORTFOLIO_REBECA/fonts/Quicksand/Quicksand-Regular.woff2") format('woff2'),
-         url("/PORTFOLIO_REBECA/fonts/Quicksand/Quicksand-Regular.woff") format('woff');
+    src: url("../fonts/Quicksand/Quicksand-Regular.woff2") format('woff2'),
+         url("../fonts/Quicksand/Quicksand-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'DynaPuff';
-    src: url("/PORTFOLIO_REBECA/fonts/DynaPuff/DynaPuff-Regular.woff2") format('woff2'),
-         url("/PORTFOLIO_REBECA/fonts/DynaPuff/DynaPuff-Regular.woff") format('woff');
+    src: url("../fonts/DynaPuff/DynaPuff-Regular.woff2") format('woff2'),
+         url("../fonts/DynaPuff/DynaPuff-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -96,7 +96,7 @@ body {
 /*INICIO*/
 .inicio{
     background-image: linear-gradient(to top, rgba(30, 6, 119, 0.8), rgb(195, 137, 243)),
-    url("img/fondo.png");
+    url("../img/fondo.png");
     background-size: cover;
     height: 100vh;
     color: #000000;
@@ -487,82 +487,84 @@ html {
 
 @media screen and (max-width: 768px) {
 
-.encabezado header {
-    flex-direction: column;
-    text-align: center;
-}
+    .encabezado header {
+        flex-direction: column;
+        text-align: center;
+    }
   
-.encabezado header nav ul {
-    flex-direction: column;
-    padding: 10px 0;
-}
+    .encabezado header nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
   
-.encabezado header nav ul li {
-    margin: 5px 0;
-}
+    .encabezado header nav ul li {
+        margin: 5px 0;
+    }
   
-.inicio {
-    flex-direction: column;
-    height: auto;
-    padding-top: 80px;
-}
-  
-.inicio .apertura {
-    width: 90%;
-    margin-top: 20px;
-}
-  
-.sobremi,
-.curriculum,
-.proyectos,
-.contacto {
-    padding: 30px 15px;
-}
-  
-.contenedor-intereses {
-    grid-template-columns: 1fr;
-}
-  
-.bloque-cv,
-.bloque-proyecto {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-}
-  
-.bloque-proyecto img {
-    max-width: 100%;
-}
-  
-form input,
-form textarea {
-    font-size: 14px;
-}
-  
-.rrss-contacto {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-  
-.rrss-contacto a {
-    margin: 10px 8px;
-}
-  
-.menu-responsive {
-    display: block;
-}
-  
-#menu {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    background-color: #e3ceff;
-    padding: 10px 0;
-}
+    .inicio {
+        flex-direction: column;
+        height: auto;
+        padding-top: 80px;
+    }
+    
+    .inicio .apertura {
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .sobremi,
+    .curriculum,
+    .proyectos,
+    .contacto {
+        padding: 30px 15px;
+    }
+    
+    .contenedor-intereses {
+        grid-template-columns: 1fr;
+    }
+    
+    .bloque-cv,
+    .bloque-proyecto {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .bloque-proyecto img {
+        max-width: 100%;
+    }
+    
+    form input,
+    form textarea {
+        font-size: 14px;
+    }
+    
+    .rrss-contacto {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .rrss-contacto a {
+        margin: 10px 8px;
+    }
+    
+    .menu-responsive {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    #menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e3ceff;
+        padding: 10px 0;
+    }
 
-#menu.mostrar {
-    display: flex;
-}
+    #menu.mostrar {
+        display: flex;
+    }
   
 }
 
